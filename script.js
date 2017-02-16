@@ -13,7 +13,7 @@ Reveal.initialize({
   // Display a presentation progress bar
   progress: true,
   // Display the page number of the current slide
-  slideNumber: false,
+  slideNumber: true,
   // Push each slide change to the browser history
   history: true,
   // Enable keyboard shortcuts for navigation
@@ -39,7 +39,7 @@ Reveal.initialize({
   // key is pressed
   help: false,
   // Flags if speaker notes should be visible to all viewers
-  showNotes: false,
+  showNotes: true,
   // Number of milliseconds between automatically proceeding to the
   // next slide, disabled when set to 0, this value can be overwritten
   // by using a data-autoslide attribute on your slides
@@ -55,11 +55,11 @@ Reveal.initialize({
   // Opens links in an iframe preview overlay
   previewLinks: false,
   // Transition style
-  transition: 'slide', // none/fade/slide/convex/concave/zoom
+  transition: 'none', // none/fade/slide/convex/concave/zoom
   // Transition speed
   transitionSpeed: 'default', // default/fast/slow
   // Transition style for full page slide backgrounds
-  backgroundTransition: 'fade', // none/fade/slide/convex/concave/zoom
+  backgroundTransition: 'none', // none/fade/slide/convex/concave/zoom
   // Number of slides away from the current that are visible
   viewDistance: 3,
   // Parallax background image
@@ -78,7 +78,7 @@ Reveal.initialize({
   // Display a presentation progress bar
   progress: true,
   // Display the page number of the current slide
-  slideNumber: false,
+  slideNumber: true,
   // Push each slide change to the browser history
   history: true,
   // Enable keyboard shortcuts for navigation
@@ -120,11 +120,11 @@ Reveal.initialize({
   // Opens links in an iframe preview overlay
   previewLinks: false,
   // Transition style
-  transition: 'slide', // none/fade/slide/convex/concave/zoom
+  transition: 'none', // none/fade/slide/convex/concave/zoom
   // Transition speed
   transitionSpeed: 'default', // default/fast/slow
   // Transition style for full page slide backgrounds
-  backgroundTransition: 'fade', // none/fade/slide/convex/concave/zoom
+  backgroundTransition: 'none', // none/fade/slide/convex/concave/zoom
   // Number of slides away from the current that are visible
   viewDistance: 3,
   // Parallax background image
