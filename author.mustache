@@ -1,0 +1,28 @@
+<div class="author">
+  <h1 class="name">{{name}}</h1>
+  {{#twitter}}
+    <h2 class="twitter">
+      <a href="http://twitter.com/{{{twitter}}}">{{{twitter}}}</a>
+    </h2>
+  {{/twitter}}
+  {{#github}}
+    <h2 class="github">
+      <a href="https://github.com/{{{github}}}">{{{github}}}</a>
+    </h2>
+  {{/github}}
+  {{#weibo}}
+    <h3 class="weibo">
+      <a href="http://weibo.com/{{{weibo}}}">{{{weibo}}}</a>
+    </h3>
+  {{/weibo}}
+  {{#url}}
+    <h5 class="url">
+      <a href="{{{url}}}">{{{url}}}</a>
+    </h5>
+  {{/url}}
+  {{#email}}
+    <h3 class="email">
+      <a href="mailto:{{{email}}}">{{{email}}}</a>
+    </h3>
+  {{/email}}
+</div>
